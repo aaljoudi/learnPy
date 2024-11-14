@@ -56,3 +56,20 @@ print ("Type a string:", end="")
 s = input()
 print(s)
 
+# Printing basics
+
+x = 3
+y = 4
+z = 5.6789
+
+print (x, y)
+print ("x is:", x)
+
+# The f command means you can use {} to evaluate as an expression
+print (f"x is: {x}")
+
+# {z:.2f} format z to a float number rounded to 2 decimal places
+print (f"z is: {z:.2f}")
+
+# end="" means no new line after printing
+print (x, y, end="")
