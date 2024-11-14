@@ -47,3 +47,12 @@ if x > y and not x < y:
     print ("Equal")
 elif x > 100:
     print ("Big")
+
+# User input
+
+#This print function prevents the code from going to newline before input
+## Note: You do not need to add a space, the comma adds a space
+print ("Type a string:", end="")
+s = input()
+print(s)
+
