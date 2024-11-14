@@ -73,3 +73,23 @@ print (f"z is: {z:.2f}")
 
 # end="" means no new line after printing
 print (x, y, end="")
+
+# J-Doodle excersize - task 2
+
+"""
+Task 2:
+
+Write a program that:
+1. prints "Enter a number:"
+2. lets the user type in a number
+3. prints "The square root is: ", followed by the square root
+
+(remember that you can find square roots using exponentiation!)
+
+"""
+
+# Task 2 - your solution here
+
+print ("Enter a number:", end="")
+num = input()
+print (f"The square root is: {num ** 0.5}")
