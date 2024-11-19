@@ -81,3 +81,17 @@ def FileRead():
     infile.close()
 
 x = FileRead()
+
+# Write a code for a rock, paper, scissors game
+
+from random import randint
+
+def choices():
+    i = ["rock", "paper", "scissors"]
+    computerChoice = i[randint(0, 2)]
+    userInput = input()
+
+    if computerChoice == userInput:
+        print ("Draw")
+    
+
