@@ -91,5 +91,5 @@ Write a program that:
 # Task 2 - your solution here
 
 print ("Enter a number:", end="")
-num = input()
+num = int(input())
 print (f"The square root is: {num ** 0.5}")
