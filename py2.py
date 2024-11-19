@@ -64,3 +64,20 @@ def loop2():
     print()
 
 print (loop2())
+
+# Working with files
+
+def FileRead():
+    infilename = input("Enter a file name: ")
+
+    infile = open(infilename, "r")
+
+    lineNumber = 1
+
+    for line in infile:
+        print (str(lineNumber) + ":", line[:-1])
+        lineNumber += 1
+    
+    infile.close()
+
+x = FileRead()
